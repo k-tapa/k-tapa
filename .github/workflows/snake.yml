@@ -16,6 +16,10 @@ on:
     branches:
       - main
 
+# ワークフローに書き込み権限を付与
+permissions:
+  contents: write
+
 jobs:
   generate:
     runs-on: ubuntu-latest
